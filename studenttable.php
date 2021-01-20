@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Development Area</title>
@@ -8,12 +9,14 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/responsive.css">
 </head>
-<body>
-	
-	
 
-	<div class="wrap-table shadow">
-		<div class="card">
+<body>
+
+
+
+	<div class="wrap-table ">
+		<a class="btn btn-primary" href="index.php">Back to Form</a>
+		<div class="card shadow">
 			<div class="card-body">
 				<h2>All Data</h2>
 				<table class="table table-striped">
@@ -23,7 +26,7 @@
 							<th>Name</th>
 							<th>Email</th>
 							<th>Cell</th>
-							<th>Photo</th>
+
 							<th>Action</th>
 						</tr>
 					</thead>
@@ -33,69 +36,22 @@
 							<td>Asraful Haque</td>
 							<td>haq@gmail.com</td>
 							<td>01717700811</td>
-							<td><img src="assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg" alt=""></td>
+
 							<td>
 								<a class="btn btn-sm btn-info" href="#">View</a>
 								<a class="btn btn-sm btn-warning" href="#">Edit</a>
 								<a class="btn btn-sm btn-danger" href="#">Delete</a>
 							</td>
 						</tr>
-						<tr>
-							<td>1</td>
-							<td>Asraful Haque</td>
-							<td>haq@gmail.com</td>
-							<td>01717700811</td>
-							<td><img src="assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg" alt=""></td>
-							<td>
-								<a class="btn btn-sm btn-info" href="#">View</a>
-								<a class="btn btn-sm btn-warning" href="#">Edit</a>
-								<a class="btn btn-sm btn-danger" href="#">Delete</a>
-							</td>
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>Asraful Haque</td>
-							<td>haq@gmail.com</td>
-							<td>01717700811</td>
-							<td><img src="assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg" alt=""></td>
-							<td>
-								<a class="btn btn-sm btn-info" href="#">View</a>
-								<a class="btn btn-sm btn-warning" href="#">Edit</a>
-								<a class="btn btn-sm btn-danger" href="#">Delete</a>
-							</td>
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>Asraful Haque</td>
-							<td>haq@gmail.com</td>
-							<td>01717700811</td>
-							<td><img src="assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg" alt=""></td>
-							<td>
-								<a class="btn btn-sm btn-info" href="#">View</a>
-								<a class="btn btn-sm btn-warning" href="#">Edit</a>
-								<a class="btn btn-sm btn-danger" href="#">Delete</a>
-							</td>
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>Asraful Haque</td>
-							<td>haq@gmail.com</td>
-							<td>01717700811</td>
-							<td><img src="assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg" alt=""></td>
-							<td>
-								<a class="btn btn-sm btn-info" href="#">View</a>
-								<a class="btn btn-sm btn-warning" href="#">Edit</a>
-								<a class="btn btn-sm btn-danger" href="#">Delete</a>
-							</td>
-						</tr>
-						
+
+
 
 					</tbody>
 				</table>
 			</div>
 		</div>
 	</div>
-	
+
 
 
 
@@ -109,4 +65,5 @@
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/custom.js"></script>
 </body>
+
 </html>
