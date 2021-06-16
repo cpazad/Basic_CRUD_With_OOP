@@ -1,3 +1,13 @@
+<?php
+
+require_once "vendor/autoload.php"; 
+ 
+  use Ura\Dhura\Controller\Student;
+
+  $stu = new Student; 
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,14 +20,23 @@
 </head>
 <body>
 	<?php
+
+	/**
+	 * Student form submission.
+	 */
 	
 	if(isset($_POST['submit'])){
+		
 		$name = $_POST['name'];		
 		$email = $_POST['email'];		
 		$cell = $_POST['cell'];		
 		$uname = $_POST['uname'];		
-		if (empty($name) || empty($email) || empty($cell) || empty($uame)) {
-			$msg = '<p class:"alert alert-danger" > All fields are required </p>';
+		
+		if (empty($name) || empty($email) || empty($cell) || empty($uname)) {
+			$msg = '<p class ="alert alert-danger" > Some Fields are empty</p>';
+		}else{
+			$stu -> studentTomiJao($name, $email, $cell, $uname);
+			$msg = '<p class ="alert alert-success" > Data send successful </p>';
 		}
 
 	}
